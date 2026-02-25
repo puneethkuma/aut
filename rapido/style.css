@@ -20,7 +20,7 @@ body {
 /* Hero */
 .hero {
   height: 100vh;
-  background: linear-gradient(135deg, #2ecc71, #f1c40f);
+  background: linear-gradient(135deg, #f1c40f);
   color: white;
   padding-top: 80px;
 }
@@ -32,6 +32,15 @@ body {
 
 .hero p {
   font-size: 20px;
+}
+
+.store-badge {
+  height: 80px;
+  transition: 0.3s ease;
+}
+
+.store-badge:hover {
+  transform: scale(1.08);
 }
 
 /* Section Title */
@@ -55,6 +64,34 @@ body {
   margin-bottom: 15px;
   color: #f1c40f;
 }
+
+.feature-card {
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.feature-card i {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Color Variations */
+
+.bg-blue { background: #1a73e8; }
+.bg-green { background: #34a853; }
+.bg-pink { background: #e91e63; }
+.bg-purple { background: #9c27b0; }
+.bg-orange { background: #ff6f00; }
+.bg-cyan { background: #00acc1; }
+.bg-red { background: #d32f2f; }
+.bg-teal { background: #00897b; }
 
 .feature-card:hover {
   transform: translateY(-10px);
