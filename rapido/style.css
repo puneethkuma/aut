@@ -1,0 +1,113 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8f9fa;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(0,0,0,0.6);
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #fff !important;
+  font-size: 22px;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #2ecc71, #f1c40f);
+  color: white;
+  padding-top: 80px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+/* Section Title */
+.section-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* Feature Cards */
+.feature-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.feature-card i {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #f1c40f;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* CTA */
+.cta {
+  background: #111;
+  color: white;
+  padding: 80px 0;
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  color: white;
+  padding: 60px 0 30px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  background: #2ecc71;
+  color: black;
+  margin: 0 8px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #f1c40f;
+  transform: translateY(-5px);
+}
+
+/* Responsive */
+@media(max-width:768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
+
+/* Hero Auto Image */
+.hero-auto-img {
+  width: 300px;
+  max-width: 950%;
+  animation: float 3s ease-in-out infinite;
+}
+
+
