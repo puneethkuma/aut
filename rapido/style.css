@@ -20,7 +20,7 @@ body {
 /* Hero */
 .hero {
   height: 100vh;
-  background: linear-gradient(135deg, #f1c40f);
+  background: linear-gradient(135deg, blue);
   color: white;
   padding-top: 80px;
 }
@@ -112,6 +112,22 @@ body {
   padding: 60px 0 30px;
 }
 
+.footer {
+  background: #111111;
+  color: #cccccc;
+  padding: 50px 0;
+}
+
+.footer-store-badge {
+  height: 80px;
+  transition: 0.3s;
+}
+
+.footer-store-badge:hover {
+  transform: scale(1.08);
+}
+
+
 .social-icons a {
   display: inline-block;
   width: 45px;
@@ -148,3 +164,4 @@ body {
 }
 
 
+ 
