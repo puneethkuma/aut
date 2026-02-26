@@ -82,6 +82,25 @@ body {
   transform: translateY(-8px);
 }
 
+
+.city-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+
+.city-card i {
+  font-size: 30px;
+  color: #FFB300;
+}
+
+.city-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
 /* Color Variations */
 
 .bg-blue { background: #1a73e8; }
@@ -156,7 +175,7 @@ body {
   }
 }
 
-/* Hero Auto Image */
+/* Hero car  Image */
 .hero-auto-img {
   width: 300px;
   max-width: 950%;
