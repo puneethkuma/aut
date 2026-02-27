@@ -1,7 +1,15 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Sora', sans-serif;
   background: #f8f9fa;
   scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
 }
 
 /* Navbar */
@@ -42,6 +50,15 @@ body {
 .store-badge:hover {
   transform: scale(1.08);
 }
+h2 {
+  font-weight: 700;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 32px ; 
+  letter-spacing: -0.5px;
+}
 
 /* Section Title */
 .section-title {
@@ -49,6 +66,10 @@ body {
   font-size: 32px;
 }
 
+.feature-card h5 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
 /* Feature Cards */
 .feature-card {
   background: white;
